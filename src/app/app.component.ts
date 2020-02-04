@@ -20,7 +20,6 @@ export class AppComponent  {
     }else{
       console.log('odd', event);
       this.oddValues.push(event);
-
     }
   }
 }
