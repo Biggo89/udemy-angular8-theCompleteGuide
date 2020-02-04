@@ -2,8 +2,10 @@ p {
   font-family: Lato;
 }
 .panel-success{
-  background-color: green;
+  background-color: lightgreen;
+  width: 50%;
 }
 .panel-danger{
-  background-color: red;
+  background-color: lightcoral;
+  width: 50%;
 }
