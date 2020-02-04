@@ -1,1 +1,12 @@
-<app-game></app-game>
+<div class="container">
+  <app-game (myEvent)="generateChild($event)"></app-game>
+  <div class="row">
+    <div class="col-xs-6 panel panel-success">
+      <app-even *ngFor="let even of evenValues" [value]="even"></app-even>
+    </div>
+    <div class="col-xs-6 panel panel-danger">
+      <app-odd *ngFor="let odd of oddValues" [value]="odd"></app-odd>
+    </div>
+  </div>
+
+</div>
