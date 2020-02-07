@@ -15,7 +15,7 @@ export class AppComponent  {
   }
   generateChild(event: number){
     if(event % 2 === 0){
-      console.log('even', event);
+      console.log('even 1', event);
       this.evenValues.push(event);
     }else{
       console.log('odd', event);
